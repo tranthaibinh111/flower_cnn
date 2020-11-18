@@ -1,0 +1,11 @@
+name: flower_cnn
+channels:
+  - defaults
+dependencies:
+  - python>=3.6
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip:
+    - tensorflow==2.3.0
